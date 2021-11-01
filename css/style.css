@@ -1,0 +1,29 @@
+body { 
+    padding-top: 60px; 
+    background-color: #5ba1b0;
+}
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+
+.barra-navegacion {
+    background-color:rgba(red, green, blue, 0);
+}
+
+.texto-barra-navegacion {
+    color: white;
+}
+
+.dropdowns {
+    background-color: #5ba1b0;
+}
+
+.pie-de-pagina {
+    background-color: #d8caae;
+    box-shadow: -2px -5px 5px #d8caae;
+}
+
+
+.contenido {
+
+}
