@@ -35,16 +35,16 @@ body {
 }
 
 
-
+/*
 @media screen and (max-width: 768px){
     .contenedor-pie {
         display: none;
     }
-}
+}*/
 
 .pie-de-pagina {
     background-color: #d8caae;
-    box-shadow: -2px -5px 5px #d8caae;
+    /*box-shadow: -2px -5px 5px #d8caae;*/
 }
 
 
