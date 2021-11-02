@@ -34,6 +34,8 @@ body {
     background-color: #5ba1b0;
 }
 
+
+
 @media screen and (max-width: 768px){
     .contenedor-pie {
         display: none;
