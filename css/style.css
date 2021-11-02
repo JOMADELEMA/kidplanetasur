@@ -7,20 +7,43 @@ body {
 }
 
 .barra-navegacion {
-   background-color: rgba(83, 83, 83, 0.438);
+    background-color: rgba(83, 83, 83, 0.438);
+}
+
+.activo {
+    font-weight: bold;
 }
 
 .texto-barra-navegacion {
-    color:white;
-    text-shadow: 1px 1px 1px black;
+    color: white;
 }
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    }
+    
 
 .dropdowns {
     background-color: #5ba1b0;
+}
+
+@media screen and (max-width: 768px){
+    .contenedor-pie {
+        display: none;
+    }
 }
 
 .pie-de-pagina {
     background-color: #d8caae;
     box-shadow: -2px -5px 5px #d8caae;
 }
+
+
 
