@@ -21,9 +21,16 @@
 
     <title>Kid Planeta Sur</title>
   </head>
-  <body>
+  <div>
     <!--Inicio del NavBar-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top barra-navegacion shadow-sm">
+    <nav id="navbar-example"
+      class="
+        navbar navbar-expand-md navbar-dark
+        fixed-top
+        barra-navegacion
+        shadow-sm
+      "
+    >
       <div class="container-fluid">
         <a class="navbar-brand abs" href="#"
           ><img src="assets/imgs/logo.png" alt="Logo" height="50"
@@ -42,76 +49,84 @@
               <a class="nav-link text-white" href="#">Inicio</a>
             </li>
             <li class="nav-item texto-barra-navegacion">
-              <a class="nav-link text-white" href="#">Quienes Somos?</a>
+              <a class="nav-link text-white" href="#about-us">Quienes Somos?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#" data-bs-toggle="collapse"
+              <a
+                class="nav-link text-white"
+                href="#promos"
                 >Promociones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white"
+                href="#contacto"
+
+                >Contacto</a
               >
             </li>
           </ul>
           <ul class="navbar-nav ms-auto">
-              <li class="nav-item mx-1 my-1">
-                <a class="text-white" href="#"
-                  ><i class="fa fa-facebook-square fa-2x"></i
-                ></a>
-              </li>
-              <li class="nav-item mx-1 my-1">
-                <a class="text-white" href="#"
-                  ><i class="fa fa-instagram fa-2x"></i
-                ></a>
-              </li>
-              <li class="nav-item mx-1 my-1">
-                <a class="text-white" href="#"
-                  ><i class="fa fa-twitter fa-2x"></i
-                ></a>
-              </li>  
+            <li class="nav-item mx-1 my-1">
+              <a class="text-white" href="#"
+                ><i class="fa fa-facebook-square fa-2x"></i
+              ></a>
+            </li>
+            <li class="nav-item mx-1 my-1">
+              <a class="text-white" href="#"
+                ><i class="fa fa-instagram fa-2x"></i
+              ></a>
+            </li>
+            <li class="nav-item mx-1 my-1">
+              <a class="text-white" href="#"
+                ><i class="fa fa-twitter fa-2x"></i
+              ></a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!--Inicio Contenido-->
-
 
     <!--Inicio Carousel-->
     <div
       id="carouselExampleControls"
-      class="carousel slide carousel-fade"
+      class="carousel slide carousel-fade shadow"
       data-bs-ride="carousel"
     >
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
             src="assets/imgs/Banner5.jpeg"
-            class="d-block w-100 image-fluid border-0 rounded"
+            class="d-block w-100 image-fluid border-0"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
             src="assets/imgs/Banner6.jpeg"
-            class="d-block w-100 image-fluid rounded"
+            class="d-block w-100 image-fluid"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
             src="assets/imgs/Banner7.jpeg"
-            class="d-block w-100 image-fluid rounded"
+            class="d-block w-100 image-fluid"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
             src="assets/imgs/Banner8.jpeg"
-            class="d-block w-100 image-fluid rounded"
+            class="d-block w-100 image-fluid"
             alt="..."
           />
         </div>
         <div class="carousel-item">
           <img
             src="assets/imgs/Banner9.jpeg"
-            class="d-block w-100 image-fluid rounded"
+            class="d-block w-100 image-fluid"
             alt="..."
           />
         </div>
@@ -138,24 +153,145 @@
 
     <!--Fin Carousel-->
 
-<!--Inicio Quienes Somos-->
+    <!--Inicio Contenido-->
+    <div data-bs-spy="scroll" data-bs-target="navbar-example" data-bs-offset="0" class="scrollspy-example" tabindex="0"></div>>
+      <!--Inicio Quienes Somos-->
 
+      <div class="row contenedor-quienes-somos mt-5 mb-5" id="about-us">
+        <div class="col-sm-12 d-flex justify-content-center">
+          <h1 class="display-1">Quienes Somos?</h1>
+        </div>
+        <div class="col-md-6 col-sm-12 p-4">
+          <h1 class="display-6 justify-content-center">
+            <strong>Misión</strong>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+            optio recusandae laboriosam accusamus veritatis repellendus, vel.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+            ratione distinctio odit nulla deserunt neque temporibus
+            reprehenderit? Fuga dolorum fugiat in delectus doloremque
+            voluptates, quibusdam ab vitae praesentium non harum.
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-12 p-4">
+          <h1 class="display-6"><strong>Visión</strong></h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+            optio recusandae laboriosam accusamus veritatis repellendus, vel.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            autem quod quibusdam quaerat laboriosam, voluptate beatae
+            perferendis reiciendis maxime, repudiandae expedita sit itaque unde
+            tenetur minus vero, enim ex accusantium!
+          </p>
+        </div>
+      </div>
 
+      <!--Fin Quienes Somos-->
 
-<!--Fin Quienes Somos-->
+      <!--Inicio Promociones-->
+      <div class="row container-fluid mt-5 mb-5" id="promos">
+      <div class="col-12 d-flex justify-content-center">
+        <h1 class="display-1">Promociones?</h1>
+      </div>
+      <div class="col-md-6 col-sm-12 p-4">
+        <h1 class="display-6 justify-content-center">
+          <strong>Promocion</strong>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+          optio recusandae laboriosam accusamus veritatis repellendus, vel.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+          ratione distinctio odit nulla deserunt neque temporibus
+          reprehenderit? Fuga dolorum fugiat in delectus doloremque
+          voluptates, quibusdam ab vitae praesentium non harum.
+        </p>
+      </div>
+      <div class="col-md-6 col-sm-12 p-4">
+        <h1 class="display-6 justify-content-center">
+          <strong>Promocion</strong>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+          optio recusandae laboriosam accusamus veritatis repellendus, vel.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+          ratione distinctio odit nulla deserunt neque temporibus
+          reprehenderit? Fuga dolorum fugiat in delectus doloremque
+          voluptates, quibusdam ab vitae praesentium non harum.
+        </p>
+      </div>
+      <div class="col-md-6 col-sm-12 p-4">
+        <h1 class="display-6 justify-content-center">
+          <strong>Promocion</strong>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+          optio recusandae laboriosam accusamus veritatis repellendus, vel.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+          ratione distinctio odit nulla deserunt neque temporibus
+          reprehenderit? Fuga dolorum fugiat in delectus doloremque
+          voluptates, quibusdam ab vitae praesentium non harum.
+        </p>
+      </div>
+      <div class="col-md-6 col-sm-12 p-4">
+        <h1 class="display-6 justify-content-center">
+          <strong>Promocion</strong>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
+          optio recusandae laboriosam accusamus veritatis repellendus, vel.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+          ratione distinctio odit nulla deserunt neque temporibus
+          reprehenderit? Fuga dolorum fugiat in delectus doloremque
+          voluptates, quibusdam ab vitae praesentium non harum.
+        </p>
+      </div>
+
+    </div>
+      
+      <!--Fin Promociones-->
+
+      <!--Inicio Contacto-->
+      <div class="row" id="contacto">
+        <div class="col-8 container">
+          <div class="col-12 d-flex justify-content-center">
+            <h1 class="display-1">Contactanos</h1>
+          </div>
+          <form class=" p-4 rounded">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!--Fin Contacto-->
+    </div>
     <!--Fin Contenido-->
 
     <!--Inicio de Footer-->
     <div class="container-fluid contenedor-pie">
       <div class="row">
-        <footer class="fixed-bottom pie-de-pagina p-3">
+        <footer class="pie-de-pagina p-3">
           <div class="d-flex justify-content-center">
             <span class="fw-bold">&copy; 2021 Kid Planeta Sur</span>
           </div>
         </footer>
       </div>
     </div>
-        <!--Fin del Footer-->
+    <!--Fin del Footer-->
 
     <!-- Optional JavaScript; choose one of the two! -->
 

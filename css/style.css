@@ -3,6 +3,7 @@ body {
     background: linear-gradient(0deg, rgba(216,202,174,1) 0%, rgba(83,225,255,1) 15%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 57px;
 /*    background-color: #5ba1b0;*/
 }
 @media screen and (max-width: 840px) {
@@ -14,9 +15,10 @@ body {
     background-color: rgba(83, 83, 83, 0.438);
 }
 
+/*
 .activo {
     font-weight: bold;
-}
+}*/
 
 .texto-barra-navegacion {
     color: white;
@@ -35,9 +37,12 @@ body {
     
 
 .dropdowns {
-    background-color: #5ba1b0;
+    background-color: rgba(83,225,255,1) 
 }
 
+.contenedor-quienes-somos {
+   /* background-color: rgb(181, 243, 255, 50%) */
+}
 
 /*
 @media screen and (max-width: 768px){
