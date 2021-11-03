@@ -21,260 +21,256 @@
 
     <title>Kid Planeta Sur</title>
   </head>
-  <div>
-    <!--Inicio del NavBar-->
-    <nav id="navbar-example"
-      class="
-        navbar navbar-expand-md navbar-dark
-        fixed-top
-        barra-navegacion
-        shadow-sm
-      "
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand abs" href="#"
-          ><img src="assets/imgs/logo.png" alt="Logo" height="50"
-        /></a>
+  <body>
+    <div>
+      <!--Inicio del NavBar-->
+      <nav
+        id="navbar-example"
+        class="
+          navbar navbar-expand-md navbar-dark
+          fixed-top
+          barra-navegacion
+          shadow-sm
+        "
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand abs" href="#"
+            ><img src="assets/imgs/logo.png" alt="Logo" height="50"
+          /></a>
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="collapseNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item activo">
+                <a class="nav-link text-white" href="#">Inicio</a>
+              </li>
+              <li class="nav-item texto-barra-navegacion">
+                <a class="nav-link text-white" href="#about-us"
+                  >Quienes Somos?</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#promos">Promociones</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-1 my-1">
+                <a class="text-white" href="#"
+                  ><i class="fa fa-facebook-square fa-2x"></i
+                ></a>
+              </li>
+              <li class="nav-item mx-1 my-1">
+                <a class="text-white" href="#"
+                  ><i class="fa fa-instagram fa-2x"></i
+                ></a>
+              </li>
+              <li class="nav-item mx-1 my-1">
+                <a class="text-white" href="#"
+                  ><i class="fa fa-twitter fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Inicio Carousel-->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide carousel-fade shadow"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/imgs/Banner5.jpeg"
+              class="d-block w-100 image-fluid border-0"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/imgs/Banner6.jpeg"
+              class="d-block w-100 image-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/imgs/Banner7.jpeg"
+              class="d-block w-100 image-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/imgs/Banner8.jpeg"
+              class="d-block w-100 image-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/imgs/Banner9.jpeg"
+              class="d-block w-100 image-fluid"
+              alt="..."
+            />
+          </div>
+        </div>
         <button
-          class="navbar-toggler ms-auto"
+          class="carousel-control-prev"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseNavbar"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div class="navbar-collapse collapse" id="collapseNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item activo">
-              <a class="nav-link text-white" href="#">Inicio</a>
-            </li>
-            <li class="nav-item texto-barra-navegacion">
-              <a class="nav-link text-white" href="#about-us">Quienes Somos?</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-white"
-                href="#promos"
-                >Promociones</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link text-white"
-                href="#contacto"
-
-                >Contacto</a
-              >
-            </li>
-          </ul>
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-1 my-1">
-              <a class="text-white" href="#"
-                ><i class="fa fa-facebook-square fa-2x"></i
-              ></a>
-            </li>
-            <li class="nav-item mx-1 my-1">
-              <a class="text-white" href="#"
-                ><i class="fa fa-instagram fa-2x"></i
-              ></a>
-            </li>
-            <li class="nav-item mx-1 my-1">
-              <a class="text-white" href="#"
-                ><i class="fa fa-twitter fa-2x"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-    </nav>
 
-    <!--Inicio Carousel-->
-    <div
-      id="carouselExampleControls"
-      class="carousel slide carousel-fade shadow"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="assets/imgs/Banner5.jpeg"
-            class="d-block w-100 image-fluid border-0"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="assets/imgs/Banner6.jpeg"
-            class="d-block w-100 image-fluid"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="assets/imgs/Banner7.jpeg"
-            class="d-block w-100 image-fluid"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="assets/imgs/Banner8.jpeg"
-            class="d-block w-100 image-fluid"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="assets/imgs/Banner9.jpeg"
-            class="d-block w-100 image-fluid"
-            alt="..."
-          />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+      <!--Fin Carousel-->
 
-    <!--Fin Carousel-->
-
-    <!--Inicio Contenido-->
-    <div data-bs-spy="scroll" data-bs-target="navbar-example" data-bs-offset="0" class="scrollspy-example" tabindex="0"></div>
+      <!--Inicio Contenido-->
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="navbar-example"
+        data-bs-offset="0"
+        class="scrollspy-example"
+        tabindex="0"
+      ></div>
       <!--Inicio Quienes Somos-->
 
-      <div class="row contenedor-quienes-somos mt-5 mb-5 pt-5" id="about-us">
-        <div class="col-sm-12 d-flex justify-content-center">
-          <h1 class="display-1">Quienes Somos?</h1>
-        </div>
-        <div class="col-md-6 col-sm-12 p-4">
-          <h1 class="display-6 justify-content-center">
-            <strong>Misión</strong>
-          </h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
-            optio recusandae laboriosam accusamus veritatis repellendus, vel.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-            ratione distinctio odit nulla deserunt neque temporibus
-            reprehenderit? Fuga dolorum fugiat in delectus doloremque
-            voluptates, quibusdam ab vitae praesentium non harum.
-          </p>
-        </div>
-        <div class="col-md-6 col-sm-12 p-4">
-          <h1 class="display-6"><strong>Visión</strong></h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
-            optio recusandae laboriosam accusamus veritatis repellendus, vel.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            autem quod quibusdam quaerat laboriosam, voluptate beatae
-            perferendis reiciendis maxime, repudiandae expedita sit itaque unde
-            tenetur minus vero, enim ex accusantium!
-          </p>
+      <div class="container">
+        <div class="row mt-5 pt-5" id="about-us">
+          <div class="col-sm-12 d-flex justify-content-center">
+            <h1 class="display-1">Quienes Somos?</h1>
+          </div>
+          <div class="col-md-6 col-sm-12 p-4">
+            <h1 class="display-6 justify-content-center">
+              <strong>Misión</strong>
+            </h1>
+            <p>
+              Llevar diversión a tu fiesta o evento para que tus niños pasen
+              unas hroas increibles con risas, entretenimiento y tu estés feliz
+              al verlos felices, nos caracterizamos por nuestra puntualidad y
+              servicio muy atento.
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12 p-4">
+            <h1 class="display-6"><strong>Visión</strong></h1>
+            <p>
+              Ser una empresa lider en servicio de diversión para chicos y
+              grandes.
+            </p>
+          </div>
         </div>
       </div>
 
       <!--Fin Quienes Somos-->
 
+      <!--Inicio Servicios-->
+      <div class="container">
+        <div class="row contenedor-quienes-somos pt-5" id="servicios">
+          <div class="col-md-12 col-sm-12 p-4">
+            <h1 class="display-6 justify-content-center">
+              <strong>Servicio</strong>
+            </h1>
+            <p>
+              ¿Estás preparando celebrarle un cumpleaños o evento super especial
+              para tus hijos? Nosotros poemos ayudarte, contamos con alquiler de
+              inflables interactivos y acuaticos para que la diversión no falte.
+              También contamos con tiro al blanco y ula ulas para fiestas.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Fin Servicios-->
+
       <!--Inicio Promociones-->
-      <div class="row container-fluid mt-5 mb-5 pt-5" id="promos">
-      <div class="col-12 d-flex justify-content-center">
-        <h1 class="display-1">Promociones?</h1>
-      </div>
-      <div class="col-md-6 col-sm-12 p-4">
-        <h1 class="display-6 justify-content-center">
-          <strong>Promocion</strong>
-        </h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
-          optio recusandae laboriosam accusamus veritatis repellendus, vel.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-          ratione distinctio odit nulla deserunt neque temporibus
-          reprehenderit? Fuga dolorum fugiat in delectus doloremque
-          voluptates, quibusdam ab vitae praesentium non harum.
-        </p>
-      </div>
-      <div class="col-md-6 col-sm-12 p-4">
-        <h1 class="display-6 justify-content-center">
-          <strong>Promocion</strong>
-        </h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
-          optio recusandae laboriosam accusamus veritatis repellendus, vel.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-          ratione distinctio odit nulla deserunt neque temporibus
-          reprehenderit? Fuga dolorum fugiat in delectus doloremque
-          voluptates, quibusdam ab vitae praesentium non harum.
-        </p>
-      </div>
-      <div class="col-md-6 col-sm-12 p-4">
-        <h1 class="display-6 justify-content-center">
-          <strong>Promocion</strong>
-        </h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
-          optio recusandae laboriosam accusamus veritatis repellendus, vel.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-          ratione distinctio odit nulla deserunt neque temporibus
-          reprehenderit? Fuga dolorum fugiat in delectus doloremque
-          voluptates, quibusdam ab vitae praesentium non harum.
-        </p>
-      </div>
-      <div class="col-md-6 col-sm-12 p-4">
-        <h1 class="display-6 justify-content-center">
-          <strong>Promocion</strong>
-        </h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
-          optio recusandae laboriosam accusamus veritatis repellendus, vel.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
-          ratione distinctio odit nulla deserunt neque temporibus
-          reprehenderit? Fuga dolorum fugiat in delectus doloremque
-          voluptates, quibusdam ab vitae praesentium non harum.
-        </p>
+
+      <div class="container">
+        <div class="row mt-5 mb-5 pt-5" id="promos">
+          <div class="col-12 d-flex justify-content-center">
+            <h1 class="display-1">Promociones?</h1>
+          </div>
+          <div class="col-md-6 col-sm-12 p-4">
+            <h1 class="display-6 justify-content-center">
+              <strong>Inflable Acuatico</strong>
+            </h1>
+            <p>
+              Para que la fiesta de tus pequeños tenga un
+              <strong> Super Splash de diversión!!</strong>
+              que harán de tus fiestas algo que tus pequeños nunca olvidarán.
+            </p>
+          </div>
+          <div class="col-md-6 col-sm-12 p-4">
+            <h1 class="display-6 justify-content-center">
+              <strong>Castillo inflable</strong>
+            </h1>
+            <p>Contamos con diferentes estilos de castillos inflables.</p>
+          </div>
+        </div>
       </div>
 
-    </div>
-      
       <!--Fin Promociones-->
 
       <!--Inicio Contacto-->
       <div class="row" id="contacto">
         <div class="col-8 container fondo-formulario rounded shadow-sm">
           <div class="col-12 d-flex justify-content-center">
-            <h1 class="display-1">Contactanos</h1>
+            <h1 class="display-1">Contáctanos</h1>
           </div>
-          <form class=" p-4 rounded">
+          <form class="p-4 rounded">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <label for="exampleInputEmail1" class="form-label"
+                >Nombre y apellidos: *</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <label for="exampleInputEmail1" class="form-label"
+                >Correo: *</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Teléfono: *</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
         </div>
-
       </div>
 
       <!--Fin Contacto-->
